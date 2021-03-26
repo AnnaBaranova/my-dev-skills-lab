@@ -20,9 +20,8 @@ function addSkill() {
   }
 
 $("div.dev-skills").on("click", function (){
-  const removeBtn = $(this);
-  console.log (this)
-  removeBtn.remove();
+  const removeItem = $(this);
+  removeItem.remove();
  });
 };
 
