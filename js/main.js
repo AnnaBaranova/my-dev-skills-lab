@@ -25,6 +25,10 @@ $("div.dev-skills").on("click", function (){
  });
 };
 
+const mySkillStorage = window.localStorage;
+console.log (mySkillStorage.getItem("name"))
+mySkillStorage.setItem("name", "anna")
+console.log (mySkillStorage.getItem("name"))
 
 
 
